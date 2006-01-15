@@ -1,10 +1,10 @@
 NAME
-    Authen::Simple::CDBI - Simple CDBI authentication
+    Authen::Simple::CDBI - Simple Class::DBI authentication
 
 SYNOPSIS
         use Authen::Simple::CDBI;
     
-        my $cdbi = Authen::Simple::DBI->new(
+        my $cdbi = Authen::Simple::CDBI->new(
             class => 'MyApp::Model::User'
         );
     
@@ -27,7 +27,7 @@ SYNOPSIS
         </Location>
 
 DESCRIPTION
-    CDBI authentication.
+    Class::DBI authentication.
 
 METHODS
     * new

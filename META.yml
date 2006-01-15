@@ -1,9 +1,9 @@
 ---
 name: Authen-Simple-CDBI
-version: 0.1
+version: 0.2
 author:
   - 'Christian Hansen C<ch@ngmedia.com>'
-abstract: Simple CDBI authentication
+abstract: Simple Class::DBI authentication
 license: perl
 requires:
   Authen::Simple: 0.3
@@ -11,5 +11,5 @@ requires:
 provides:
   Authen::Simple::CDBI:
     file: lib/Authen/Simple/CDBI.pm
-    version: 0.1
+    version: 0.2
 generated_by: Module::Build version 0.2611
